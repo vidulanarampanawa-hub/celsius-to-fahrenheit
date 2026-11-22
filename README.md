@@ -5,15 +5,16 @@ A simple command line C program that converts temperature from Celsius to Fahren
 ## How to Compile and Run
 
 1.Compile the source code using GCC:
-	```bash
-	gcc tempConverter.c -o tempConverter
-	```
+```bash
+gcc tempConverter.c -o tempConverter
+```
 
 2.Run the executable:
-	* **Windows:** `.\tempConverter.exe`
-	* **Mac / Linux:** `.\tempConverter`
 
-## example usage
+	* **Windows:** `.\tempConverter.exe`
+	* **Mac / Linux:** `./tempConverter`
+
+## Example Usage
 ```text
 Temperature in Celsius: 30.66
 Temperature in Fahrenheit: 87.19
